@@ -14,7 +14,7 @@ setup(
     name='tox-pipenv-install',
     description='Pipenv install plugin',
     long_description=read('README.rst'),
-    version='0.1.0',
+    version='0.1.1',
     author='Oleg Ermakov',
     author_email='ermakovolegs@gmail.com',
     maintainer='Oleg Ermakov',
