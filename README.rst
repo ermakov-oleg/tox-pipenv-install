@@ -18,20 +18,11 @@ tox-pipenv-install
     :target: https://codecov.io/gh/ermakov-oleg/tox-pipenv-install
     :alt: codecov
 
-
-TIL
-
 ----
 
 
 Features
 --------
-
-* TODO
-
-
-Requirements
-------------
 
 * TODO
 
