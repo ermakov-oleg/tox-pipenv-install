@@ -1,6 +1,4 @@
 # coding: utf-8
-import sys
-
 import pluggy
 
 
@@ -23,7 +21,7 @@ def tox_testenv_install_deps(venv, action):
     basepath.ensure(dir=1)
 
     action.setactivity("installdeps", "pipenv install --dev")
-    args = [sys.executable, "-m", "pipenv", "install", "--dev"]
+    args = [venv.envconfig.envpython, "-m", "pipenv", "install", "--dev"]
     venv._pcall(args, venv=False, action=action, cwd=basepath)  # pylint: disable=protected-access
 
     return True
