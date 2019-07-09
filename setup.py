@@ -13,7 +13,7 @@ def read(fname):
 setup(
     name='tox-pipenv-install',
     description='Pipenv install plugin',
-    long_description=read('README.rst'),
+    long_description=read('README.md'),
     version='0.1.1',
     author='Oleg Ermakov',
     author_email='ermakovolegs@gmail.com',
